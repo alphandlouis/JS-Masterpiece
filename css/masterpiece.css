@@ -1,0 +1,32 @@
+* 
+{
+    box-sizing: content-box;
+}
+
+html 
+{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    /* structure */
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* presentation */
+    background-color: #8A0808;
+    font-family: 'Open Sans', sans-serif;
+}
+
+canvas
+{
+    background-color: white;
+    border: 20px ridge gold;
+}
